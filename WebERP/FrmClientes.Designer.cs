@@ -197,7 +197,7 @@ namespace WebERP
             this.gbxDatos.Controls.Add(this.txtNit);
             this.gbxDatos.Controls.Add(this.label3);
             this.gbxDatos.Enabled = false;
-            this.gbxDatos.Location = new System.Drawing.Point(302, 460);
+            this.gbxDatos.Location = new System.Drawing.Point(306, 425);
             this.gbxDatos.Name = "gbxDatos";
             this.gbxDatos.Size = new System.Drawing.Size(802, 207);
             this.gbxDatos.TabIndex = 11;
@@ -308,7 +308,7 @@ namespace WebERP
             this.gbxLista.Controls.Add(this.btnBuscar);
             this.gbxLista.Controls.Add(this.txtParametro);
             this.gbxLista.Controls.Add(this.label2);
-            this.gbxLista.Location = new System.Drawing.Point(302, 114);
+            this.gbxLista.Location = new System.Drawing.Point(306, 64);
             this.gbxLista.Name = "gbxLista";
             this.gbxLista.Size = new System.Drawing.Size(802, 307);
             this.gbxLista.TabIndex = 9;
@@ -401,7 +401,7 @@ namespace WebERP
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(302, 73);
+            this.label1.Location = new System.Drawing.Point(302, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(802, 24);
             this.label1.TabIndex = 10;
