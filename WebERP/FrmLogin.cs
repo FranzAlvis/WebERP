@@ -12,10 +12,10 @@ namespace WebERP
 {
     public partial class FrmLogin : Form
     {
-        public string nombreUsuario;
         public FrmLogin()
         {
             InitializeComponent();
+            CBcompa.SelectedIndex = 0;
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -23,26 +23,17 @@ namespace WebERP
             Application.Exit();
         }
 
-        public string usuario = "admin";
-        public string contra = "weberp";
-
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             if (validar())
             {
-                if (usuario == "admin" && contra == "weberp") 
-                {
-                    nombreUsuario = txtUsuario.Text;
-                    new FrmPrincipal().Show();
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Usuario y/o contraseña no válidos", "::: Login - Mensaje :::", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+                FrmPrincipal fp = new FrmPrincipal();
+                fp.lblDemo.Text = txtUsuario.Text;
+                fp.Show();
+                this.Close();
             }
         }
-        
+
         private bool validar()
         {
             bool esValido = true;

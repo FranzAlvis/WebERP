@@ -119,6 +119,7 @@ namespace WebERP
             this.CBcompa.Name = "CBcompa";
             this.CBcompa.Size = new System.Drawing.Size(231, 21);
             this.CBcompa.TabIndex = 36;
+            this.CBcompa.Text = "--Seleccionar Compañia--";
             // 
             // label4
             // 
@@ -158,7 +159,7 @@ namespace WebERP
             this.btnAceptar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnAceptar.Image = ((System.Drawing.Image)(resources.GetObject("btnAceptar.Image")));
             this.btnAceptar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAceptar.Location = new System.Drawing.Point(16, 214);
+            this.btnAceptar.Location = new System.Drawing.Point(38, 214);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(152, 50);
             this.btnAceptar.TabIndex = 33;
@@ -247,7 +248,6 @@ namespace WebERP
         #endregion
 
         private System.Windows.Forms.TextBox txtClave;
-        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -262,5 +262,6 @@ namespace WebERP
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ErrorProvider erpcomp;
+        public System.Windows.Forms.TextBox txtUsuario;
     }
 }
